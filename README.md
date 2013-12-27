@@ -1,12 +1,10 @@
 BIOS-and-HDD-Key-code-Calculator
 ================================
+    When a laptop is locked with password, a checksum of that password is stored to a so-called FlashROM - this is a chip on the mainboard of the device which also contains the BIOS code and other settings, e.g. memory timings. For most brands, this checksum is displayed after entering an invalid password for the third time.                                             The dramatic 'System Disabled' message is just scare tactics: when you remove all power from the laptop and reboot it, it will work just as before. From such a checksum (also called "hash"), valid passwords can be found by means of brute-forcing. The bypass mechanisms of other vendors work by showing a number to the user from which a master password can be derived. This password is usually a sequence of numbers generated randomly.
+                                                                                       Dogbert's Blog, May 2, 2009
 
-This program calculates the key codes of HDD and BIOS systems of ACER and Sony VAIO laptops. 
-This program was created in C++ programming language and it is desingned to calculate the key-codes of BIOS nad HDD systems
-by knowing the license numbers of ACER and Sony VAIO laptops. License number for each laptop is aboslutely unique. I
-just figured out that algorithms by different internet sources and tried my program for 3 ACER and 2 Sony VAIO laptops and 
-that worked perfectly. The program works like this.
-ACER license numbers consists of 8 digits and Sony VAIO license numbers consists of 7 digits. 
-THe interesting part of the decryption was that key codes also have the same corresponind length.
-So if the first number of ACER' laptops' license number is # the first number of the key-code is associated to that number
-(for instance if the first number of license number is 1, the first number of key code is always 0).
+    This program generates and calculates the key codes of HDD and BIOS systems of ACER and Sony VAIO laptops according to their license numbers. Licesne numbers for each laptop is absolutely unique and "BIOS and HDD Key code Calculator" helps easily to figure out corresponding key codes. The algorithm was figured out by multiple-testing and collecting data from different Internet sources. The program is written in C++ programming language. 
+                                                                                      Rafayel Mkrtchyan, October 15, 2013
+
+
+Reminder<< #ACER license numbers consists of 8 digits and Sony VAIO license numbers consists of 7 digits. 
