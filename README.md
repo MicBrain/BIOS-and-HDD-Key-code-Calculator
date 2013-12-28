@@ -14,3 +14,5 @@ BIOS-and-HDD-Key-code-Calculator
 
 
 Reminder<< #ACER license numbers consist of 8 digits and Sony VAIO license numbers consist of 7 digits. All digits are only numbers. 
+
+
